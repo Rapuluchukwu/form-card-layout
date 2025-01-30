@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+label {
+    margin: 10px;
+    display: block;
+    color: dodgerblue;
+}
+
+label::before {
+    color: red;
+    content: "*";
+    padding-inline-start: .2em;
+}
+
+input {
+    padding: 10px;
+    display: block;
+    margin-top: 10px;
+    border: 2px solid dodgerblue;
+}
+
+button {
+    margin: 0 50px;
+    display: block;
+    color: white;
+    border-radius: 6px;
+    background: dodgerblue;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid dodgerblue;
+}
