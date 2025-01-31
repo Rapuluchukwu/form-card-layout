@@ -1,0 +1,58 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Ensure vertical alignment */
+    height: 100vh;
+    text-align: center; /* Center text */
+  }
+  
+  /* Header Styling */
+  h1 {
+    font-size: 2.5rem;
+    color: #3b3b98;
+    margin-bottom: 20px;
+  }
+  
+  /* Paragraph Styling */
+  p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  /* Unordered List Styling */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Stack list items vertically */
+    align-items: center; /* Center list items */
+  }
+  
+  /* List Item Styling */
+  li {
+    margin: 10px 0;
+  }
+  
+  /* Link Styling */
+  a {
+    text-decoration: none;
+    color: #5f2c82;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-bottom: 2px solid #5f2c82;
+    transition: color 0.3s, border-color 0.3s;
+  }
+  
+  a:hover {
+    color: #49a09d;
+    border-color: #49a09d;
+  }
+  
